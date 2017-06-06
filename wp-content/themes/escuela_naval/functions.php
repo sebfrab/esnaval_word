@@ -60,3 +60,12 @@ function limit_word_count($title) {
     return $title;
 }
 add_filter('the_title', 'limit_word_count');
+
+//add file multimedia in the publications
+function allow_contributor_uploads() {
+    $contributor = get_role('contributor');
+    $contributor->add_cap('upload_files');
+}
+if ( current_user_can('contributor') && !current_user_can('upload_files') )
+    add_action('admin_init', 'allow_contributor_uploads');
+     
