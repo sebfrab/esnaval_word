@@ -55,8 +55,6 @@ function limit_word_count($title) {
             $title = substr($title, 0, $keys[$len]);
         }
     }
-    
-    
     return $title;
 }
 add_filter('the_title', 'limit_word_count');
