@@ -1,0 +1,63 @@
+/*
+Theme Name: escuela_naval
+Theme URI: http://www.escuelanaval.cl
+Description: Responsive theme for escuelanaval.cl
+Version: 1.0
+Author: Sebastián Franco Brantes
+*/
+
+
+/*
+Estructura del archivo
+    1.-  contenedor
+
+    //contenido para dimensiones
+    1.-  contenedor
+*/
+
+/******************************************************************************/
+/******************************************************************************/
+/* 1.- contenedor */
+#contenedor_404{
+    background-color: #2a384b;
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+#contenido_404{
+    background: url('../images/design/pattern.png');
+}
+
+#contenido_404 h2{
+    color: #fff;
+    text-align: center;
+}
+
+#contenido_404 h3{
+    color: #fff;
+    text-align: center;
+}
+
+#mensaje_404{
+    margin-top: 120px;
+    margin-bottom: 160px;
+}
+
+
+/******************************************************************************/
+/****************** contenido para distintas dimensiones **********************/
+/******************************************************************************/
+
+/******************************************************************************/
+/******************************************************************************/
+/* 1.- contenedor */
+@media (max-width: 767px) {
+    #contenedor_404{
+        margin-top: 70px;
+    }
+    
+    #contenido_404 h3{
+        font-size: 20px;
+    }
+}
+
