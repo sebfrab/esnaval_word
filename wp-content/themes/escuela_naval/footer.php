@@ -143,10 +143,16 @@
         });
         
         $(".btn-ver").click(function () {
+            
             var id = $(this).attr("id");
             var contenido = "#contenido-"+id;
             
-            if($(this).attr("toggle") == "no"){
+            var sw = "si";
+            if($(this).attr("toggle")=="no" || $(this).attr("toggle")==null){
+                sw = "no";
+            }
+            
+            if(sw == "no"){
                 $(contenido).show(500);
                 $(this).attr("toggle","si");
                 $(this).text("-");
