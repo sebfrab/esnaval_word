@@ -1,11 +1,11 @@
 <?php 
-    if (is_page('476')){
+    /*if (is_page('476')){
         if($_SERVER['REMOTE_ADDR']!='200.0.174.106'){
             header("HTTP/1.1 301 Moved Permanently");
             header("Location: ".get_bloginfo('url')."/error");
             exit();
         }
-    }
+    }*/
 ?>
 
 <?php get_header(); ?>
