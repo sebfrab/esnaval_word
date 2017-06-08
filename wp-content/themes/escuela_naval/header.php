@@ -112,7 +112,7 @@
             <div class="container-fluid">
                 <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
                     <a href="<?php echo get_option('home'); ?>">
-                        <img alt="logo Escuela Naval" class="img-responsive pull-left" src="<?php bloginfo('template_url') ?>/images/design/logo_escuela_naval.png">
+                        <img alt="logo Escuela Naval" class="img-responsive pull-left" src="<?php bloginfo('template_url') ?>/images/design/logo_escuela_naval_bicentenario.png">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs">
