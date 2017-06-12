@@ -94,7 +94,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <p>
-                            <a href="http://localhost/escuela_naval_web/wp-content/uploads/2017/05/politicas_de_privacidad.pdf" target="_blank">Politicas de privacidad</a>
+                            <a href="http://acreditacion.escuelanaval.cl/wp-content/uploads/2017/05/politicas_de_privacidad.pdf" target="_blank">Politicas de privacidad</a>
                         </p>
                     </div>
                 </div>
