@@ -37,6 +37,8 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+ define('DISALLOW_FILE_EDIT', true);
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -63,7 +65,7 @@ define('NONCE_SALT',       '/wW*Rm i=z*xP uY%7e$!HN>8DT-KW  mOE}XWlSADN},[M1mh1c
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'agh11V_';
 
 /**
  * For developers: WordPress debugging mode.

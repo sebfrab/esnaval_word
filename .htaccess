@@ -10,3 +10,9 @@ RewriteRule . /escuela_naval_web/index.php [L]
 </IfModule>
 
 # END WordPress
+
+
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
