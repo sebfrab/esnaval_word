@@ -11,8 +11,9 @@ RewriteRule . /escuela_naval_web/index.php [L]
 
 # END WordPress
 
-
 <files wp-config.php>
 order allow,deny
 deny from all
 </files>
+
+Options -Indexes
