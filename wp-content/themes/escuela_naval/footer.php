@@ -175,6 +175,14 @@
         backgrounds[3] = '<?php bloginfo('template_url') ?>/images/design/formacion_profesional.jpg';
         backgrounds[4] = '<?php bloginfo('template_url') ?>/images/design/formacion_valorica.jpg';
         backgrounds[5] = '<?php bloginfo('template_url') ?>/images/design/formacion_academica.jpg';
+        
+        var formacion = [];
+        formacion[0] = '<h3>formación</h3><h2>cultural</h2>';
+        formacion[1] = '<h3>formación</h3><h2>deportiva</h2>';
+        formacion[2] = '<h3>formación</h3><h2>militar</h2>';
+        formacion[3] = '<h3>formación</h3><h2>profesional</h2>';
+        formacion[4] = '<h3>formación</h3><h2>valórica</h2>';
+        formacion[5] = '<h3>formación</h3><h2>académica</h2>';
 
         function changeBackground() {
             currentBackground++;
@@ -185,6 +193,7 @@
                     '-webkit-transition': 'background-image 2s linear',
                     'transition': 'background-image 2s linear',
             });
+            $("#formacion_academica_boton").html(formacion[currentBackground]);
             setTimeout(changeBackground, 7000);
         }
 
