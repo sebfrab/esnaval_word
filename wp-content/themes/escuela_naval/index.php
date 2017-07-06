@@ -97,7 +97,7 @@
            <div id="" class="col-lg-3 col-md-3 col-sm-3 col-xs-6" style="background-color: #d0d0d0; padding-top: 20px; padding-bottom: 20px;">
                 <div style="height: 150px;">
                     <h3>
-                        Peródico de los cadetes "fogonazo"
+                        Periódico de los cadetes "fogonazo"
                     </h3>
                 </div>
             </div> 
