@@ -180,7 +180,7 @@ a {
 
 /******************************************************************************/
 /******************************************************************************/
-/* 10.- noticias */
+/* 10.- sitios esnaval */
 .sitios_enaval{
     padding: 0px; 
     border: none;
@@ -361,7 +361,7 @@ a.thumbnail.active {
     font-family: 'Candara';
     text-align: justify;
     color: #23415b;
-    min-height: 50px;
+    min-height: 65px;
     margin-bottom: 0px;
 }
 
