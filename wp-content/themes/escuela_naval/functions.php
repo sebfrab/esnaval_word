@@ -47,7 +47,7 @@ add_filter('excerpt_length', 'my_excerpt_length');
 function limit_word_count($title) {
     $len = 10; //change this to the number of words
     
-    if(is_single()){
+    if(is_single() or is_front_page()){
         $title;
     }else{
         if (str_word_count($title) > $len) {
