@@ -66,4 +66,10 @@ function allow_contributor_uploads() {
 }
 if ( current_user_can('contributor') && !current_user_can('upload_files') )
     add_action('admin_init', 'allow_contributor_uploads');
+
+//add headers for security
+add_action( 'send_headers', 'add_header_xframeoptions' );
+    function add_header_xframeoptions() {
+    header( 'X-Frame-Options: SAMEORIGIN' );
+}
      
